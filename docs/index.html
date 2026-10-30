@@ -115,6 +115,13 @@
   footer{padding:44px 0 60px;color:var(--faint);font-size:12.5px;display:flex;
          justify-content:space-between;gap:20px;flex-wrap:wrap}
   footer .credit{letter-spacing:.06em}
+  footer .frow{display:flex;justify-content:space-between;align-items:center;gap:16px;
+               flex-wrap:wrap;width:100%;padding-bottom:16px;margin-bottom:16px;
+               border-bottom:1px solid var(--rule)}
+  footer .oldlink{display:inline-block;text-decoration:none;font-size:12px;letter-spacing:.04em;
+                  padding:7px 14px;border:1px solid var(--rule);border-radius:2px;
+                  color:var(--muted);transition:.15s}
+  footer .oldlink:hover{border-color:var(--accent);color:var(--accent);background:#fdf6f2}
 </style>
 </head>
 <body data-lang="en">
@@ -381,7 +388,12 @@
 </main>
 
 <footer class="wrap">
-  <span class="credit">Designed by WoodyBuendia · 2026</span>
+  <div class="frow">
+    <span class="credit">Designed by WoodyBuendia · 2026</span>
+    <a class="oldlink" href="https://git.woodybuendia.site/">
+      <span class="en">Old blog (2020) →</span><span class="zh">旧博客（2020）→</span>
+    </a>
+  </div>
   <span>
     <span class="en">This repository is an introduction only. No source code is published.</span>
     <span class="zh">本仓库只做介绍，不包含源代码。</span>

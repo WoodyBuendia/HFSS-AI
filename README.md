@@ -112,7 +112,7 @@ process.
 Assistant? Replacement? Amplifier — each is only half right. The real difference is who carries the
 judgement.
 
-> It amplifies judgement, it does not replace it.
+> It amplifies the designer’s judgement. It does not replace the designer.
 
 The machine spreads out the possibilities; you tell it what you have in mind; it builds it.
 

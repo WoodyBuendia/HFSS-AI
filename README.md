@@ -13,9 +13,9 @@ Status: **in development — not released yet.** Join the waiting list below.
 
 ---
 
-## What it is
+## Built around the task
 
-HFSS-AI is a design console where a **design task**, not a button, is the smallest unit.
+A design task is the unit of work — not a button, not a menu.
 
 You describe the device — band, targets, constraints, what must not change — and hand it over.
 The AI uses ANSYS HFSS the way a designer would: it writes the model script, sets ports and meshes,
@@ -61,7 +61,7 @@ One design, one object. Every structure type is filed separately — its own mod
 its own trend. Switching structure is turning a page, not reopening a tool. A task belongs to one
 design object; a design object can hold many tasks.
 
-## Connections on both ends
+## Both ends are swappable
 
 **Upward — the AI.** A long-lived DSH · ACP session by default; Claude Code, OpenCode, Codex or
 Gemini CLI as command-line agents; Anthropic and OpenAI-compatible APIs (DeepSeek, Qwen, Kimi,
